@@ -148,8 +148,7 @@ function create (env, ctx) {
     , "/report": "reportindex.html"
     , "/translations": "translationsindex.html"
     , "/clock.html": "clock.html"
-    , "/carhud.html":"carhud.html"
-  };
+   };
 
   Object.keys(appPages).forEach(function(page) {
     app.get(page, (req, res) => {
